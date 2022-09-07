@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Helvetica,sans-serif;
+    line-height: 1.8;
+    color:#999 ;
+    background-color: #f2f3f5;
+}
+.service{
+    width: 1140px;
+    margin: auto;
+}
+.service h2{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.service .text{
+    text-align: center;
+    width: 1140px;
+}
+.service-list{
+    width: 1250px;
+    padding-top: 50px;
+    display: block;
+    list-style: none;
+}
+.service .service-list li{
+    
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 420px;
+    width: 360px;
+}
+.service-list h3{
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.next{
+    background-color: aquamarine;
+}

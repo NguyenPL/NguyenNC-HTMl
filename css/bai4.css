@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #9b9b9b;
+}
+.info-list{
+    background-color: #f2f3f5;
+    padding: 25px;
+    margin: 30px auto;
+    width: 650px;
+    list-style: none;
+}
+.clearfix{
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    display: flex;
+    border-bottom: 1px dashed red;
+
+}
+h3{
+    color: black;
+    padding: 1px 10px 0 30px;
+}
+p{
+    padding: 4px 10px 0 30px;
+}
+.clearfix::after{
+    clear: both;
+   
+    display: block;
+}
+.info-list .clearfix .image img{
+    border-radius: 6px;
+}
+

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    color: #a3a3a3;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.container{
+    padding-top: 30px;
+    margin: auto;
+    background: color #a3a3a3;
+    width: 1300px;
+}
+ h2{
+
+    color: black;
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    color: #a3a3a3;
+    text-align: center;
+}
+.from{
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f5efef;
+    width: 730px    ;
+    height: 500px;
+}
+.from .input{
+    box-sizing: border-box;
+}
+.select-country{
+    width: 150px;
+}
+.select-coursse{
+    width: 150px;
+}
+/* ------------fix----------- */
+.from .XD {
+    padding-top: 30px;
+}
+.from .XD .fix{
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(225, 216, 233);
+    
+}
+.from .XD .fix{
+  
+    padding-left: 15px;
+}
+.from .XD1 .fix{
+    padding-left: 15px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(225, 216, 233);
+    
+}
+.from .XD .fix1{
+    padding-left: 15px;
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(225, 216, 233);
+    
+} 
+.from .XD1{
+    padding-top: 20px;
+}
+.from .XD1 .fix1{
+    padding-left: 15px;
+    color: #a3a3a3;
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(225, 216, 233);
+    
+}
+.from .country-coursse .select-country{
+    color: #a3a3a3;
+    padding-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 317px;
+    border: 1px solid rgb(225, 216, 233);
+    
+}
+.from .country-coursse .select-coursse{
+    color: #a3a3a3;
+    padding-left: 15px;
+    height: 30px;
+    margin-left: 20px;
+    width: 317px;
+    border: 1px solid rgb(225, 216, 233);
+  
+}
+/* ------------fix----------- */
+
+.text-fix{
+    color: #a3a3a3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    width: 641px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px    ;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: auto;
+    background-color: black;
+    width: 660px;
+}

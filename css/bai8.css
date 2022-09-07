@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+}
+.main{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.content{
+    margin-left: 378px;
+    margin-top: 100px;
+}
+.content::after{
+    content: "";
+    background-color: rgb(255, 217, 0);
+    width: 50px;
+    display: block;
+    height: 5px;
+    margin-bottom: 50px;
+    
+}
+.main .Contact-info{
+    width: 300px;
+    height: 300px;
+}
+.main .Contact-info p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fixicon{
+    margin-top: 33px;
+    color: rgb(188, 198, 198);
+    float: left;
+    font-size: 30px;
+}
+.fixicon1{
+    margin-top: 20px;
+    color: rgb(188, 198, 198);
+    float: left;
+    font-size: 30px;
+}
+.fixicon2{
+    margin-top: 20px;
+    color: rgb(188, 198, 198);
+    float: left;
+    font-size: 30px;
+}
+.main .Contact-info .fix{
+    margin-left: 40px;
+}
+.main .Contact-info .fix1{
+    margin-top: 54px;
+    margin-left: 40px;
+}
+.main .Contact-info .fix2{
+    margin-left: 40px;
+    margin-top: 54px;
+}
+
+.from-message{
+   
+    margin-left: 50px;
+    width: 600px;
+   
+}
+.from-message .text{
+    padding-left: 20px;
+    width: 600px;
+    height: 30px;
+}
+.from-message .text1{
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.from-message .T{
+    margin-top: 30px;
+    
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+    transition: 0.3s background-color;
+}
+button:hover{
+    background-color: rgb(169, 235, 213);
+}

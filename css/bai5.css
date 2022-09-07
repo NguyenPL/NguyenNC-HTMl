@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.T{
+    margin: 30px auto;
+    width: 1200px;
+    background-color: aliceblue;
+}
+.container{
+    height: 1000px;
+    margin: 30px auto;
+    width: 1145px;
+    
+}
+.container p{
+    color: rgb(197, 203, 209);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ------- left*/
+.container .left{
+    width: 460px;
+    float: left;
+    margin-bottom: 20px;
+}
+.container h1{
+    color: black;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.container p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.left .image{
+    padding-bottom: 8px;
+}
+.left .image img{
+    border-radius: 6px;
+}
+.left .detali h3{
+    color: #1f1f1f;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+/* ------- right*/
+
+.right{
+    float: right;
+    width: 650px;
+}
+.container .right .ul-right{
+    list-style: none;
+}
+/* ------- clearfix*/
+.clearfix{
+    
+    display: flex;
+    border-bottom: 1px dashed red;
+}
+.container .right .ul-right .clearfix p{
+    margin-left: 20px;
+}
+.container .right .ul-right .clearfix h3{
+    margin-left: 20px;
+}
+/* ------- clearfix*-----------------------/
+
+/* ------- clearfix1*/
+.clearfix1{
+    display: flex;
+    margin-top: 26px;
+    border-bottom: 1px dashed red;
+}
+.container .right .ul-right .clearfix1 p{
+    margin-left: 20px;
+}
+.container .right .ul-right .clearfix1 h3{
+    margin-left: 20px;  
+}
+/* ------- clearfix1-------end*/
+
+/* ------- clearfix2*------*/
+.clearfix2{
+    margin-top: 26px;
+    display: flex;
+    border-bottom: 1px dashed red;
+}
+.container .right .ul-right .clearfix2 p{
+    margin-left: 20px;
+}
+.container .right .ul-right .clearfix2 h3{
+    margin-left: 20px;
+}
+/* ------- clearfix2*---------------*/
+
+/* ------- clearfix3*-----------*/
+
+.clearfix3{
+    margin-top: 26px;
+    display: flex;
+    
+}
+.container .right .ul-right .clearfix3 p{
+    margin-left: 20px;
+}
+.container .right .ul-right .clearfix3 h3{
+    margin-left: 20px;
+}
+/* ------- clearfix3*-----------------*/
+/*----img-----*/
+.boder-img{
+    border-radius: 6px;
+}

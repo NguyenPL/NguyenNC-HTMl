@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+/*reset*/
+body{
+    display: block;
+    color: #666;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+/*layout*/
+section{    
+    display: block;
+}
+.about{
+    margin: 30px auto;
+    width: 1140px;
+}
+
+.about .img{
+    float: left;
+    width: 520px;
+}
+.about .detail{
+    float: right;
+    width: 560px;
+}
+.about .detail h2{
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 42px;
+    position: relative;
+}
+.about .detail .choose-list{
+    padding: 14px 0 0 20px;
+    list-style: none;
+}
+.about .detail .choose-list li{
+    float: left;
+    width: 50%;
+}
+i{
+    color: aqua;
+
+}
+
