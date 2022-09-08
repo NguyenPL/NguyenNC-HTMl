@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+   
+}
+
+.footer{
+   margin: auto;
+    padding-top: 70px;
+    justify-content: center;
+    color: aliceblue;
+    width: 80%;
+    display: flex;
+    background-color: #325c6a;
+    height: 200px;
+}
+.about-us{
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+.quick-links{
+    margin-left: 30px;  
+    width: 20%;
+}
+.follow-us{
+    margin-left: 30px;
+    width: 20%;
+}
+
+.fix1{
+    color: aqua;
+    font-size: 50px;
+    float: left;
+}
+.fix2{
+    color: aqua;
+    font-size: 50px;
+    float: left;
+}
+.fix3{
+    color: aqua;
+    font-size: 50px;
+    float: left;
+}
+.fix4{
+    color: aqua;
+    font-size: 50px;
+    float: left;
+}
+.Copyright{
+    margin: auto;
+    width: 74.7%;
+    padding: 50px ;
+    text-align: center;
+    border-top: 1px solid rgb(227, 221, 221);
+    background-color: #325c6a;
+   
+}
+h5{
+    color: aliceblue;
+}
